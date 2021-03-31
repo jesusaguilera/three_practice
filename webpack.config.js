@@ -25,19 +25,6 @@ module.exports = {
           },
         ],
       },
-      //Css
-      {
-        test: /\.css/i,
-        use: [
-          {
-            loader: MiniCSSExtractPlugin.loader,
-            options: {
-              publicPath: "./",
-            },
-          },
-          "css-loader",
-        ],
-      },
       // Sass
       {
         test: /\.scss/i,
