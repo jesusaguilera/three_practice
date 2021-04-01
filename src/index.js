@@ -43,7 +43,6 @@ const renderer = new THREE.WebGLRenderer({
 });
 renderer.setSize(sizes.width, sizes.height)
 
-
 // let time = Date.now();
 // Clock
 const clock = new THREE.Clock();
